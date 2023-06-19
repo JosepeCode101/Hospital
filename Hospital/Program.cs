@@ -34,13 +34,8 @@ namespace Hospital
                     case 2:
                         pacientes.Add(CrearPersonaPaciente());
                         break;
-
                 }
             }
-
-
-
-            //listaMedicos.Add(CrearPersonaMedico());
         }
         static Medico CrearPersonaMedico()
         {
@@ -123,13 +118,13 @@ namespace Hospital
             return p;
         }
 
-        static void AsignarPaciente()
+        /*static void AsignarPaciente()
         {
             int nC;
             Console.WriteLine("Para asignar un paciente primero");
             Console.WriteLine("Introduce el numero de colegiado");
             nC = Convert.ToInt32(Console.ReadLine());
             
-        }
+        }*/
     }
 }
